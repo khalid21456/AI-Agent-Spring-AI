@@ -1,11 +1,12 @@
 package com.AIAgent.FirstAgent.agents;
 
 
+import com.AIAgent.FirstAgent.annotations.AiAgent;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.stereotype.Service;
 
 @SuppressWarnings("unused")
-@Service
+@AiAgent
 public class FinancialAnalysisAgent {
     private ChatClient chatClient;
 
